@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Hanalei');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: Helvetica,Arial, sans-serif;
+	font-size: 20px;
+	color: #fff;
+	text-align: center; 
+	background: black;
+	line-height: 1.3;
+	position: relative;
+}
+
+header{
+	background-color: #fff;
+	padding: 0 200px;
+	border: 1px black solid;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+
+}
+
+nav{
+	margin:auto ;
+}
+
+#nav_one{
+	color: #33BC81;
+	font-style: normal;
+	margin-right: 15px;
+	font-family: 'Hanalei', cursive;
+	font-size: 35px;
+}
+
+
+h1{
+	 font-family: Arial，sans-serif;
+     font-weight: 800;
+     font-size: 60px;
+     text-transform: uppercase;
+}
+
+
+
+hr{
+	width: 500px;
+	height: 3px;
+	color: white;
+	margin: 1em auto;
+}
+
+
+
+h2{
+	font-size: 22px;
+}
+
+
+ul{
+	padding-left:1.25em;
+	text-align: left;
+}
+
+a{
+	font-style: italic;
+	text-decoration: none;
+}
+
+p {
+	margin:2em auto;
+	width: 30em;
+}
+
+footer{
+	background: #ff957e;
+	padding: 20px;
+	border: 1px blue solid;
+}
+
+
+#logo{
+	height: 7em;
+	width: 30em;
+}
+
+#slogan{
+	font-family: 'Indie Flower', cursive;
+	font-size: 2em;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+#main {
+    background: url("../images/panda008.jpg") no-repeat center center scroll;
+    background-size: cover;
+	height:750px;
+	padding:20px 0;
+	border: 1px black double;
+}
+
+.clearfix:after {
+    visibilty: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#section_one{
+	background: #FFC675;
+	padding: 2%;
+
+	float: left;
+	width: 48%;
+}
+
+#section_two{
+	background: #FFE2B8;
+	padding: 2%;
+	
+	float: right;
+	width: 48%;
+}
+
+#section_three{
+	background: #FFC675;
+	padding: 2%;
+	
+	float: left;
+	width: 48%;
+}
+
+#section_four{
+	background: #E89C6C;
+	padding: 2%;
+	
+	float: right;
+	width: 48%;
+}
+
+#section_five{
+	background: #FFC675;
+	padding: 2%;
+	border: 1px black dashed;
+	float: left;
+	width: 100%;
+}
+
+img{
+	width: 30em;
+	height: 25em;
+}
+
+.clearfix2:after{
+    visibilty: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media (max-width: 800px) {
+    nav{
+    	float: none;
+    }
+
+    img{
+
+    width: 320px;
+
+    }
+
+    #logo{
+    	width: 320px;
+    }
+
+    #main,section{
+    	font-size: 1.4em;
+    	line-height: 1.8em;
+    }
+
+
+} 
+
+@media only screen and (max-width: 480px){
+	h1,nav{
+		display: block;
+		text-align: 0 1em 1em;
+	}
+
+	img{
+		width: 100%;
+	}
+
+	section,div{
+		width: 100%;
+		padding: .6em;
+	}
+	h2{
+		font-size: 1em;
+		display: inline;
+	}
+
+	p,ul{
+		margin: 1.8em .6em 0;
+	}
+
+	li{
+		width: 80%;
+		outline-width: .5em;
+		padding: .5em;
+		height: 2em;
+		line-height: 2em;
+	}
+}
+
