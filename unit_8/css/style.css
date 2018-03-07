@@ -177,13 +177,21 @@ img{
     	float: none;
     }
 
-    img{
+    .panda{
 
     width: 320px;
 
     }
 
     #logo{
+    	width: 320px;
+    }
+
+    #nav_one{
+    	width: 320px;
+    }
+
+    #slogan{
     	width: 320px;
     }
 
@@ -201,7 +209,7 @@ img{
 		text-align: 0 1em 1em;
 	}
 
-	img{
+	.panda{
 		width: 100%;
 	}
 
